@@ -95,7 +95,7 @@ function lead_form(string $id, string $csrf, string $currentUrl, string $modifie
     <meta property="og:image" content="<?= e(rtrim(SITE_URL, '/') . '/assets/img/generated-hero-workshop.jpg'); ?>">
     <meta name="theme-color" content="#111418">
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%23111418'/%3E%3Ccircle cx='32' cy='32' r='20' fill='none' stroke='%23f5b642' stroke-width='6'/%3E%3Ccircle cx='32' cy='32' r='7' fill='%23f5b642'/%3E%3C/svg%3E">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -212,7 +212,7 @@ function lead_form(string $id, string $csrf, string $currentUrl, string $modifie
             </div>
             <div class="service-columns">
                 <article class="service-card reveal">
-                    <img src="/assets/img/generated-hero-workshop.jpg" alt="Сгенерированный тематический кадр шиномонтажной зоны" loading="lazy">
+                    <img src="assets/img/generated-hero-workshop.jpg" alt="Сгенерированный тематический кадр шиномонтажной зоны" loading="lazy">
                     <span class="media-label">Сгенерированный кадр</span>
                     <h3>Шиномонтаж</h3>
                     <ul>
@@ -224,7 +224,7 @@ function lead_form(string $id, string $csrf, string $currentUrl, string $modifie
                     </ul>
                 </article>
                 <article class="service-card reveal">
-                    <img src="/assets/img/generated-wheel-repair.jpg" alt="Сгенерированный тематический кадр ремонта прокола колеса" loading="lazy">
+                    <img src="assets/img/generated-wheel-repair.jpg" alt="Сгенерированный тематический кадр ремонта прокола колеса" loading="lazy">
                     <span class="media-label">Сгенерированный кадр</span>
                     <h3>Ремонт колёс</h3>
                     <ul>
@@ -235,7 +235,7 @@ function lead_form(string $id, string $csrf, string $currentUrl, string $modifie
                     </ul>
                 </article>
                 <article class="service-card reveal">
-                    <img src="/assets/img/generated-service-tools.jpg" alt="Сгенерированный тематический кадр масла, фильтра, колодок и инструмента" loading="lazy">
+                    <img src="assets/img/generated-service-tools.jpg" alt="Сгенерированный тематический кадр масла, фильтра, колодок и инструмента" loading="lazy">
                     <span class="media-label">Сгенерированный кадр</span>
                     <h3>Небольшое обслуживание</h3>
                     <ul>
@@ -330,27 +330,27 @@ function lead_form(string $id, string $csrf, string $currentUrl, string $modifie
             </div>
             <div class="photo-grid">
                 <figure class="photo-placeholder photo-realized reveal">
-                    <img src="/assets/img/generated-hero-workshop.jpg" alt="Сгенерированный тематический кадр рабочей зоны шиномонтажа" loading="lazy">
+                    <img src="assets/img/generated-hero-workshop.jpg" alt="Сгенерированный тематический кадр рабочей зоны шиномонтажа" loading="lazy">
                     <figcaption>Сезонный шиномонтаж <span>летняя и зимняя резина</span></figcaption>
                 </figure>
                 <figure class="photo-placeholder photo-realized reveal">
-                    <img src="/assets/img/generated-wheel-repair.jpg" alt="Сгенерированный тематический кадр ремонта прокола" loading="lazy">
+                    <img src="assets/img/generated-wheel-repair.jpg" alt="Сгенерированный тематический кадр ремонта прокола" loading="lazy">
                     <figcaption>Ремонт прокола <span>если повреждение позволяет ремонт</span></figcaption>
                 </figure>
                 <figure class="photo-placeholder photo-realized reveal">
-                    <img src="/assets/img/generated-service-tools.jpg" alt="Сгенерированный тематический кадр небольшого обслуживания" loading="lazy">
+                    <img src="assets/img/generated-service-tools.jpg" alt="Сгенерированный тематический кадр небольшого обслуживания" loading="lazy">
                     <figcaption>Масло, фильтр, колодки <span>по предварительному согласованию</span></figcaption>
                 </figure>
                 <figure class="photo-placeholder photo-realized reveal">
-                    <img src="/assets/img/generated-work-bay.jpg" alt="Сгенерированный тематический кадр рабочей зоны шиномонтажа" loading="lazy">
+                    <img src="assets/img/generated-work-bay.jpg" alt="Сгенерированный тематический кадр рабочей зоны шиномонтажа" loading="lazy">
                     <figcaption>Осмотр колеса <span>причина спуска и рекомендации</span></figcaption>
                 </figure>
                 <figure class="photo-placeholder photo-realized reveal">
-                    <img src="/assets/img/generated-wheels-stack.jpg" alt="Сгенерированный тематический кадр колёс и резины" loading="lazy">
+                    <img src="assets/img/generated-wheels-stack.jpg" alt="Сгенерированный тематический кадр колёс и резины" loading="lazy">
                     <figcaption>Колёса и резина <span>проверка давления и состояния</span></figcaption>
                 </figure>
                 <figure class="photo-placeholder photo-realized reveal">
-                    <img src="/assets/img/generated-garage-entry.jpg" alt="Сгенерированный тематический кадр въезда в небольшую мастерскую" loading="lazy">
+                    <img src="assets/img/generated-garage-entry.jpg" alt="Сгенерированный тематический кадр въезда в небольшую мастерскую" loading="lazy">
                     <figcaption>Визит по записи <span>перед выездом лучше позвонить</span></figcaption>
                 </figure>
             </div>
@@ -438,6 +438,6 @@ function lead_form(string $id, string $csrf, string $currentUrl, string $modifie
     <a href="/privacy.php">Открыть полную страницу политики</a>
 </dialog>
 
-<script src="/assets/js/app.js" defer></script>
+<script src="assets/js/app.js" defer></script>
 </body>
 </html>
