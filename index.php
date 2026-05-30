@@ -125,7 +125,6 @@ function lead_form(string $id, string $csrf, string $currentUrl, string $modifie
 <header class="site-header" id="top">
     <div class="container header-inner">
         <a class="brand" href="#top" aria-label="На главную">
-            <span class="brand-mark" aria-hidden="true"></span>
             <span>
                 <strong><?= e(SITE_NAME); ?></strong>
                 <small>ул. Дзержинского, 2, Домодедово</small>
