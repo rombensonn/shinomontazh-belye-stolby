@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+  <title id="title">Графический плейсхолдер сервиса</title>
+  <desc id="desc">Нейтральная индустриальная карточка, не являющаяся реальной фотографией</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#15191e"/>
+      <stop offset="1" stop-color="#2b3138"/>
+    </linearGradient>
+    <pattern id="lines" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M0 72L72 0" stroke="#ffffff" stroke-opacity=".06" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="540" fill="url(#bg)"/>
+  <rect width="900" height="540" fill="url(#lines)"/>
+  <rect x="92" y="116" width="716" height="308" rx="8" fill="#0f1216" stroke="#f5b642" stroke-opacity=".65" stroke-width="4"/>
+  <path d="M142 348h616" stroke="#f5b642" stroke-width="10"/>
+  <path d="M214 310l94-94 58 58 112-112 80 80 64-64" fill="none" stroke="#f7f3eb" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
+  <circle cx="214" cy="310" r="18" fill="#f5b642"/>
+  <circle cx="366" cy="274" r="18" fill="#f5b642"/>
+  <circle cx="558" cy="242" r="18" fill="#f5b642"/>
+  <text x="132" y="88" fill="#f7f3eb" font-family="Arial, sans-serif" font-size="30" font-weight="700">Фото сервиса и работ</text>
+  <text x="132" y="456" fill="#b7b0a5" font-family="Arial, sans-serif" font-size="22">Это графический плейсхолдер, не реальная фотография</text>
+</svg>

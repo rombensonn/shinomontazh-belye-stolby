@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /includes/
+Disallow: /storage/
+
+Sitemap: https://rombensonn.github.io/shinomontazh-belye-stolby/sitemap.xml

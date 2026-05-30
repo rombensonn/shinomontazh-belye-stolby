@@ -1,0 +1,3 @@
+php-server.log
+php-server.err.log
+storage/rate-limit.json

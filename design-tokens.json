@@ -1,0 +1,38 @@
+{
+  "color": {
+    "coal": "#08090a",
+    "graphite": "#111315",
+    "iron": "#191c1f",
+    "steel": "#272d31",
+    "ash": "#3a4146",
+    "chalk": "#f5f1e7",
+    "paper": "#e9e0d0",
+    "muted": "#a8a096",
+    "muted2": "#756f67",
+    "amber": "#ffb21a",
+    "amber2": "#ff7a18",
+    "oxide": "#b54822",
+    "signal": "#b7ff3c",
+    "danger": "#ff5d45",
+    "success": "#52d486"
+  },
+  "radius": {
+    "panel": "8px",
+    "control": "2px"
+  },
+  "shadow": {
+    "hard": "0 24px 70px rgba(0, 0, 0, .42)",
+    "cut": "10px 10px 0 rgba(255, 178, 26, .16)"
+  },
+  "layout": {
+    "container": "1190px",
+    "grid": "56px"
+  },
+  "motion": {
+    "enter": ".55s ease-out",
+    "hover": ".18s ease"
+  },
+  "typography": {
+    "fontFamily": "\"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"SF Pro Text\", \"Segoe UI\", Roboto, Arial, sans-serif"
+  }
+}

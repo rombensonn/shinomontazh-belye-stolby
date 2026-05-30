@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+  <title id="title">Схематичная карточка адреса</title>
+  <desc id="desc">Плейсхолдер карты с адресом сервиса</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5f0e8"/>
+      <stop offset="1" stop-color="#d9d1c4"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="540" fill="url(#bg)"/>
+  <g stroke="#111418" stroke-opacity=".16" stroke-width="18" fill="none">
+    <path d="M-20 140h320c92 0 126 68 214 68h406"/>
+    <path d="M92 0v540"/>
+    <path d="M430 0v540"/>
+    <path d="M-20 404h940"/>
+  </g>
+  <path d="M450 138c-70 0-126 56-126 126 0 88 126 188 126 188s126-100 126-188c0-70-56-126-126-126z" fill="#f5b642" stroke="#111418" stroke-width="10"/>
+  <circle cx="450" cy="264" r="45" fill="#111418"/>
+  <text x="90" y="82" fill="#111418" font-family="Arial, sans-serif" font-size="30" font-weight="700">ул. Дзержинского, 2</text>
+  <text x="90" y="120" fill="#5b5f66" font-family="Arial, sans-serif" font-size="22">Белые Столбы, Домодедово</text>
+  <text x="90" y="484" fill="#5b5f66" font-family="Arial, sans-serif" font-size="20">Кнопка на сайте откроет маршрут в Яндекс.Картах</text>
+</svg>
